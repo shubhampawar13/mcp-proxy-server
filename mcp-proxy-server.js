@@ -227,11 +227,11 @@ app.use((req, res) => {
 });
 
 // Start server
-app.listen(PORT, () => {
-  console.log(`🚀 MCP Proxy Server running on http://localhost:${PORT}`);
-  console.log(`Available endpoints:`);
-  console.log(`  - GET  /health`);
-  console.log(`  - POST /api/list-tools`);
-  console.log(`  - POST /api/call-tool`);
-  console.log(`  - POST /api/call-multiple-tools`);
-});
+// app.listen(PORT, () => {
+//   console.log(`🚀 MCP Proxy Server running on http://localhost:${PORT}`);
+//   console.log(`Available endpoints:`);
+//   console.log(`  - GET  /health`);
+//   console.log(`  - POST /api/list-tools`);
+//   console.log(`  - POST /api/call-tool`);
+//   console.log(`  - POST /api/call-multiple-tools`);
+// });
