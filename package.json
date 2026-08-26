@@ -1,0 +1,26 @@
+{
+  "name": "mcp-proxy-server",
+  "version": "1.0.0",
+  "description": "Node.js proxy server for MCP (Model Context Protocol) server communication",
+  "type": "module",
+  "main": "mcp-proxy-server.js",
+  "scripts": {
+    "start": "node mcp-proxy-server.js",
+    "vercel-start": "node mcp-proxy-server.js",
+    "dev": "node --watch mcp-proxy-server.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "proxy",
+    "api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+     "@modelcontextprotocol/sdk": "^1.29.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {}
+}
